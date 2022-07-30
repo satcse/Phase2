@@ -1,0 +1,17 @@
+Cheatsheet:
+1.) Install Eclipse IDE
+2.) Install mySQL 8.0 with Workbench.
+3.) Open the Workbench and connect to MYSQL.
+4.) Download JDBC Connectivity Jar file and add it to the Project's build path.
+5.) Download and setup Apache Tomcat Server(apache-tomcat-9.0.46)
+6.) Add the index.html, config.properties, Servlet, web.xml code.
+7.) Flow: UI -> web.xml -> welcome-file-list -> Click on the link -> URL gets modified and /init is appended -> web.xml -> For /init it finds DemoJDBC as the Servlet Mapping -> DemoJDBC -> Search for Servlet and find the Servlet class name(DemoJDBC) -> Invoke the Servlet class
+8.) Add the mysql 8.0 jar to the tomcat/lib folder as well.
+9.) Servers -> Add and Remove -> Add the current project only.
+10.) Servers -> Publish and Restart / Start the server.
+11.) To test it, go for the server location -> project name
+
+	ID	name	price	date_added
+1	ASUS Vivobook	21900.00	2021-07-30 07:18:57
+2	APPLE MACBOOK	1500.00	2022-07-30 22:48:11
+				
