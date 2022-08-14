@@ -1,0 +1,33 @@
+Colors:
+CREATE TABLE ecommerce.colors (
+  `ID` bigint NOT NULL AUTO_INCREMENT,
+  `color_name` varchar(40) DEFAULT NULL,
+  `idx` int DEFAULT NULL,
+  `product_id` bigint DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+
+Finance:
+CREATE TABLE ecommerce.finance (
+  `ID` bigint NOT NULL AUTO_INCREMENT,
+  `ftype` varchar(10) DEFAULT NULL,
+  `name` varchar(30) DEFAULT NULL,
+  `product_id` bigint DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+
+OS:
+CREATE TABLE ecommerce.os (
+  `ID` bigint NOT NULL AUTO_INCREMENT,
+  `name` varchar(30) DEFAULT NULL,
+  `product_id` bigint DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+
+ScreenSizes:
+CREATE TABLE ecommerce.screensizes (
+  `ID` bigint NOT NULL AUTO_INCREMENT,
+  `size` varchar(10) DEFAULT NULL,
+  `product_id` bigint DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
