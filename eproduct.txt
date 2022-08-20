@@ -1,0 +1,31 @@
+Create Schema:
+CREATE TABLE ecommerce.eproductm (
+  `ID` bigint NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) DEFAULT NULL,
+  `price` decimal(10,2) DEFAULT NULL,
+  `date_added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `parts_hdd` varchar(10) DEFAULT NULL,
+  `parts_cpu` varchar(10) DEFAULT NULL,
+  `parts_ram` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+
+
+Spring Boot + Hibernate + JPA for connection - Spring Tool Suite(STS)
+
+
+{
+    "id": 1,
+    "postName": "My First Post",
+    "comment": "My First comment",
+    "createdAt": null,
+    "updatedAt": null
+}
+
+{
+    "id": 2,
+    "postName": "My Second Post",
+    "comment": "My Second comment",
+    "createdAt": null,
+    "updatedAt": null
+}
