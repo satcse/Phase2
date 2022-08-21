@@ -1,0 +1,1 @@
+<% out.println("This is the content from the included file.<br>"); %>
