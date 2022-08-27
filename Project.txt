@@ -1,0 +1,23 @@
+Flyaway:
+1.) Search form (From, To, Date, Type)
+2.) Display them a error page.
+3.) List of Flights - Success Result.
+4.) Allow the user to select the flight and enter the passenger details.
+5.) Save all the details to the database and generate a ticket.
+6.) Preview page - Shows the flights selected, passenger details -confirm.
+7.) Display the Ticket Booking Successful page with the Unique Ticket Number, passenger details, flight details etc.
+
+Learner's Academy:
+1.) Login form for Administrator
+2.) Assignment form - Admin should be able to assign subjects to teachers(Many subjects to One Teacher)
+3.) Add the list of Subjects
+4.) Add the list of Teachers, Students.
+5.) Student -> Teachers (Many-to-One)
+6.) Student -> Classes (Many-to-One, Many-to-Many)
+7.) Student -> Subjects (One-to-Many, Many-to-Many)
+(Students with List<Subjects> (OR) Subjects with List<Students>)
+8.) Create a Dashboard which will summarize the below:
+	a.) Classes - List of Students
+	b.) Students - List of Subjects
+  c.) Teachers - List of Classes
+9.) Class - 1 Teacher, 1 Subject and List of Students
