@@ -21,3 +21,6 @@ Learner's Academy:
 	b.) Students - List of Subjects
   c.) Teachers - List of Classes
 9.) Class - 1 Teacher, 1 Subject and List of Students
+
+Student, Teacher, Subjects, Admin Login, Classes
+Student - RollNo, Name, List<Subjects>,List<Classes>
